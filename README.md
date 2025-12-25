@@ -10,7 +10,7 @@ This project demonstrates basic CRUD operations, database integration, and API d
 * Automatic API documentation (Swagger UI)
 * Simple and beginner-friendly project structure
 
-# 🛠 Tech Stack
+# Tech Stack
 
 * Python
 * FastAPI
