@@ -25,21 +25,18 @@ todo-api/
 ├── main.py          # FastAPI app & routes
 ├── database.py      # SQLite connection & table creation
 ├── models.py        # Pydantic models
-├── todo.db          # SQLite database
-├── requirements.txt
+├── databse.db       # SQLite database
 └── README.md
 
 # API Endpoints
 
-| Method | Endpoint      | Description             |
-| ------ | ------------- | ----------------------- |
-| GET    | /tasks        | Get all tasks           |
-| GET    | /tasks/{id}   | Get task by ID          |
-| POST   |  /tasks       | Create a new task       |
-| PUT    |  /tasks/{id}  | Update an existing task |
-| DELETE |  /tasks/{id}  | Delete a task           |
-
----
+| Method | Endpoint                     | Description             |
+| ------ | ---------------------------- | ----------------------- |
+| GET    | /tasks                       | Get all tasks           |
+| GET    | /tasks/{task_id}             | Get task by ID          |
+| POST   | /tasks/create new task       | Create a new task       |
+| PUT    | /tasks/update task/{task_id} | Update an existing task |
+| DELETE | /tasks/delete task/{task_id} | Delete a task           |
 
 # Example Task Model
 
